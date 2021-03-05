@@ -1,29 +1,28 @@
 {
-  "name": "ts-node-worker-template",
+  "name": "ts-node-starter",
   "version": "1.0.0",
-  "description": "Template project for worker in Node.js with Typescript",
+  "description": "Starter for a Node.js app in Typescript",
   "main": "build/index.js",
   "scripts": {
     "start": "nodemon --watch src --exec ts-node src/index.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaygraffagna/ts-node-worker-template.git"
+    "url": "https://github.com/jaygraffagna/ts-node-starter.git"
   },
   "keywords": [
     "nodejs",
     "typescript",
-    "worker",
-    "template"
+    "starter"
   ],
   "author": "Jay Graffagna",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaygraffagna/ts-node-worker-template/issues"
+    "url": "https://github.com/jaygraffagna/ts-node-starter/issues"
   },
-  "homepage": "https://github.com/jaygraffagna/ts-node-worker-template#readme",
+  "homepage": "https://github.com/jaygraffagna/ts-node-starter#readme",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.31",
