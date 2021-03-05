@@ -9,17 +9,17 @@ git clone https://github.com/jaygraffagna/ts-node-starter.git
 
 ## Getting Started
 1. Rename dir 
-    >Replace <project-name> with actual name
+    >Replace `<project-name>` with new project name
     ```
     mv ts-node-starter <project-name>
     ```
 2. Open dir 
-    >Replace <project-name> with actual name
+    >Replace `<project-name>` with new project name
     ```
     cd <project-name>
     ```
 3. Set remote origin
-    >Replace <repo-url> with actual name
+    >Replace `<repo-url>` with new origin git url
     ```
     git remote set-url origin <repo-url>
     ```
