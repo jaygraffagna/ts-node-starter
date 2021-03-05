@@ -8,13 +8,25 @@ git clone https://github.com/jaygraffagna/ts-node-starter.git
 ```
 
 ## Getting Started
-1. Rename dir `mv ts-node-starter <project-name>`
-2. Open dir `cd <project-name>`
+1. Rename dir 
+    >Replace <project-name> with actual name
+    ```
+    mv ts-node-starter <project-name>
+    ```
+2. Open dir 
+    >Replace <project-name> with actual name
+    ```
+    cd <project-name>
+    ```
 3. Set remote origin
+    >Replace <repo-url> with actual name
     ```
     git remote set-url origin <repo-url>
     ```
-4. Install dependencies `npm install`
+4. Install dependencies 
+    ```
+    npm install
+    ```
 5. Update `package.json`
     - name
     - description
@@ -23,5 +35,8 @@ git clone https://github.com/jaygraffagna/ts-node-starter.git
     - author
     - bug.url
     - homepage
-6. Run `npm start`
+6. Run 
+    ```
+    npm start
+    ```
 7. Code!
